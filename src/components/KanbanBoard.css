@@ -1,0 +1,150 @@
+.kanban-board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+  background-color: #e5e2e2f5;
+}
+
+.column {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  width: 300px;
+}
+
+.column h2 {
+  text-align: left;
+  color: rgb(142, 141, 141);
+  padding: 10px 0;
+  border-radius: 5px 5px 0 0;
+  font-size: 15px;
+}
+
+.ticket-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ticket-body {
+  padding: 10px 0;
+}
+
+.ticket-footer {
+  display: flex;
+}
+
+.status-icon img, .priority-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.controls {
+  position: absolute;
+  top: 10px; 
+  left: 10px; 
+  z-index: 1000; 
+  display: flex;
+  align-items: center;
+}
+
+.controls img {
+  margin-right: 10px;
+}
+
+.controls select {
+  padding: 5px;
+  font-size: 14px;
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.group-options {
+  display: flex;
+  gap: 20px;
+}
+
+.icon-bar {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  gap: 10px;
+}
+
+.icon {
+  width: 14px;
+  height: 14px;
+  transition: transform 0.2s ease-in-out;
+  margin-left: 10px;
+}
+.icon:hover {
+  transform: scale(1.1);
+}
+.gnames{
+margin-right: 170px;
+padding-left: 5px;
+margin-top:8px;
+}
+.ids{
+  text-align: left;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #f4f4f4;
+  border-radius: 5px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu-icon {
+  width: 24px; 
+  height: 24px;
+}
+
+.controls select {
+  padding: 8px 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  background-color: white; 
+  font-size: 14px; 
+  cursor: pointer; 
+  outline: none; 
+}
+
+.controls select:hover {
+  border-color: #888; 
+}
+.defaultuser{
+  width:24px;
+  height: 24px;
+}
+.count{
+  margin-top: 5px;
+  font-family:'Times New Roman', Times, serif;
+  font-size:20px;
+}
+
+
+
+
+  
